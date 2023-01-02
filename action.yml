@@ -1,0 +1,12 @@
+name: "Python Container Action Template"
+description: "Get started with Python Container actions"
+inputs:
+  myInput:
+    description: "Input to use"
+    default: "LIB"
+outputs:
+  myOutput:
+    description: "Output from the action"
+runs:
+  using: "docker"
+  image: "Dockerfile"
